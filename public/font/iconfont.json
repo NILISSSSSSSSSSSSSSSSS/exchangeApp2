@@ -1,0 +1,107 @@
+{
+  "id": "1477205",
+  "name": "exchange-webapp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "454694",
+      "name": "首页",
+      "font_class": "01",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "536459",
+      "name": "person",
+      "font_class": "person",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "554091",
+      "name": "关于",
+      "font_class": "iconset0142",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "660539",
+      "name": "order",
+      "font_class": "i-order",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "878407",
+      "name": "货币与消费",
+      "font_class": "huobiyuxiaofei",
+      "unicode": "e6c1",
+      "unicode_decimal": 59073
+    },
+    {
+      "icon_id": "977472",
+      "name": "record",
+      "font_class": "record",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "1129626",
+      "name": "邀请奖励",
+      "font_class": "yaoqingjiangli",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "1286671",
+      "name": "eglass-filter",
+      "font_class": "filter",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "1287694",
+      "name": "钱包",
+      "font_class": "qianbao",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "1489091",
+      "name": "闪电",
+      "font_class": "shandian",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "4216755",
+      "name": "金币",
+      "font_class": "jinbi",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "5390964",
+      "name": "订单",
+      "font_class": "dingdan",
+      "unicode": "e704",
+      "unicode_decimal": 59140
+    },
+    {
+      "icon_id": "9566709",
+      "name": "stock-line",
+      "font_class": "stock-line",
+      "unicode": "e8ac",
+      "unicode_decimal": 59564
+    },
+    {
+      "icon_id": "11993936",
+      "name": "BTC",
+      "font_class": "BTC",
+      "unicode": "e7ec",
+      "unicode_decimal": 59372
+    }
+  ]
+}

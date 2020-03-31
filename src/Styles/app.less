@@ -1,0 +1,455 @@
+@import './var.less';
+.app{
+  font-size: 14px;
+}
+.app-header{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.app-container{
+  padding-top: 45px;
+  overflow-y: auto;
+}
+.list-row{
+  padding: 10px;
+}
+.input-label{
+  margin: 15px;
+  font-weight: bold;
+}
+.explain-under-input{
+  font-size: 12px;
+  margin-top: 10px;
+  color: @font-explain;
+}
+.dialog-header{
+  padding: 20px;
+  background-color: @dialog-header;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+.draw-sidebar-container{
+  width: 240px;
+  background-color: #fff;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.link{
+  color: @font-primary;
+}
+
+
+// 固定样式
+.decrease-div{
+  background-color: @color-negative;
+  color: @font-reverse;
+}
+.increase-div{
+  background-color: @color-positive;
+  color: @font-reverse;
+}
+.iconfont{
+  font-size: 20px;
+}
+.iconfont-selected{
+  color: #33A3F4;
+}
+.tag-list{
+  display: flex;
+  .tag{
+    padding: 8px 25px;
+    background-color: @line-color;
+    margin-right: 5px;
+    &:nth-last-child(1){
+      margin-right: 0;
+    }
+  }
+  .selected-tag{
+    background-color: transparent;
+    border: 1px solid @primary;
+  }
+}
+.list-group-sep{
+  margin-top: 20px;
+}
+.iconfilter{
+  font-size: 20px;
+  font-weight: bold;
+}
+.separator{
+  width: 100%;
+  height: 1px;
+  background-color: @line-color;
+}
+.custom-table{
+  .table-header{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.col-3{
+  &>span{
+    width: 33.33%;
+    display: inline-block;
+    padding: 12px 0;
+  }
+}
+.col-4{
+  &>span{
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 0;
+  }
+}
+.col-5{
+  &>span{
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 0;
+  }
+}
+//  用户登陆注册界面
+.user-modal{
+  .am-input-item{
+    margin-top: 40px;
+  }
+  .outside{
+    display: flex;
+    align-items: center;
+  }
+}
+.country-select{
+  margin-top: 20px;
+}
+// 选择国家地区modal
+.country-select-modal{
+  .am-list{
+    padding-top: 44px;
+  }
+  .am-modal-content{
+    padding-top: 0!important;
+  }
+  .search-header{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 92%;
+    height: 44px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    .am-search{
+      flex: 1;
+      background-color: transparent;
+    }
+  }
+}
+
+// 首页
+.app-index{
+  .box{
+    margin-top: 20px;
+    padding: 20px 10px;
+    background-color: #fff;
+  }
+}
+.draw-index{
+  .person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    i{
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    .avatar{
+      border-radius: 50%;
+    }
+  }
+}
+// 订单详情界面
+.order-detail{
+}
+// 法币交易
+.app-fiatTrade{
+  .header-right{
+    display: flex;
+    border: 1px solid @line-color;
+    border-radius: 12px;
+    span{
+      display: inline-block;
+      padding: 6px 5px 4px 5px;
+      font-size: 14px;
+      color: @font-explain;
+      cursor: pointer
+    }
+    .selected{
+      color: @font-primary;
+      border: 1px solid @font-primary;
+      border-radius: 12px;
+    }
+  }
+  .buysell-header{
+    position: fixed;
+    width: 100%;
+    padding: @space;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between;
+    .left{
+      color: @font-explain;
+      font-size: 18px;
+      font-weight: bold;
+      display: flex;
+      align-items: flex-end;
+      &>div:nth-child(1){
+        margin-right: 15px;
+      }
+      .selected{
+        color: @font-main;
+        font-size: 24px;
+      }
+    }
+    .right{
+      display: flex;
+      font-weight: 600;
+      &>div:nth-child(1){
+        margin-right: 15px;
+      }
+      div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        i{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .tabs-container{
+    position: fixed;
+    top: 105px;
+    width: 100%;
+  }
+  .avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  }
+  .btn{
+    width: 80px;
+  }
+  .btn-sell{
+    background-color: @color-sell;
+  }
+  .line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &:nth-child(1){
+      margin-top: 0;
+    }
+    &:nth-child(2){
+      margin-top: 15px;
+    }
+    &:nth-child(3){
+      margin-top: 3px;
+    }
+    &:nth-last-child(1){
+      margin-top: 15px;
+    }
+  }
+}
+// 订单详情页
+.order-detail{
+  .card{
+    background-color: @bg-main;
+    // border-radius: 8px;
+    padding-bottom: 10px;
+    // padding-top: 10px;
+  }
+  .btns{
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 0px;
+    background-color: @bg-main;
+    border-top: 1px solid @line-color;
+    .am-button{
+      height: 32px;
+      line-height: 32px;
+      width: 100px;
+      margin: 10px;
+      font-size: 12px;
+    }
+  }
+}
+.bb-list{
+  .list{
+    .list-row{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+    }
+  }
+  .crease-div{
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+  }
+}
+.buy-sell{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bb-price{
+  .select-deep{
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid @line-color;
+  }
+  .new-price{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  .flex-item{
+    display: flex;
+    justify-content: space-between;
+    &:nth-child(n+1){
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+  }
+  .buy-item{
+    background-color: rgba(255, 0, 0, 0.1);
+  }
+  .sell-item{
+    background-color: rgba(0, 128, 0, 0.1);
+  }
+}
+.bb-entrust{
+  margin-top: 10px;
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+
+// K线界面
+.bb-kline-container{
+  background-color: #000;
+  color: @font-reverse;
+  .custom-table{
+    min-height: 200px;
+  }
+  .bb-newprice{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: @bg-kline;
+    h2, h3{
+      color: @font-reverse;
+    }
+    &>div{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      &>div{
+        margin-bottom: 10px;
+        &:nth-last-child(1){
+          margin-bottom: 0;
+        }
+        span{
+          &:nth-child(1){
+            display: inline-block;
+            width: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//  个人资产
+.asset-page{
+  .count-all{
+    background-color: @font-primary;
+    color: @font-reverse;
+    padding: 20px;
+  }
+  .btns{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 10px;
+    .am-button{
+      width: 80px;
+      margin-right: 8px;
+      &:nth-last-child(1){
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.depos-page{
+  .address-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &>div{
+      margin-top: 10px;
+    }
+    .am-button{
+      margin-top: 10px;
+      width: 150px;
+    }
+  }
+}
+
+.depos-record, .withdraw-record{
+  .am-list-header{
+    padding: 0;
+  }
+}
+
+.about-us,.appeal-submit{
+  .am-list-item{
+    background-color: transparent;
+  }
+}
+
+.font-main{
+  color: @font-main;
+}
+.font-explain{
+  color: @font-explain;
+}
+.font-primary{
+  color: @font-primary;
+}
+.font-reverse{
+  color: @font-reverse;
+}
