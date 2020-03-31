@@ -1206,6 +1206,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
+"@types/socket.io-client@^1.4.32":
+  version "1.4.32"
+  resolved "https://registry.yarnpkg.com/@types/socket.io-client/-/socket.io-client-1.4.32.tgz#988a65a0386c274b1c22a55377fab6a30789ac14"
+
 "@types/stack-utils@^1.0.1":
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/@types/stack-utils/download/@types/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
@@ -1424,8 +1428,8 @@ acorn-walk@^6.0.1:
   resolved "https://registry.npm.taobao.org/acorn-walk/download/acorn-walk-6.2.0.tgz#123cb8f3b84c2171f1f7fb252615b1c78a6b1a8c"
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.npm.taobao.org/acorn/download/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
 
 acorn@^6.0.1, acorn@^6.0.4, acorn@^6.2.1:
   version "6.3.0"
